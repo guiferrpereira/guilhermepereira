@@ -176,15 +176,25 @@ div.me {
   background-image: url(img/me.png);
 }
 
-.sectioncenter {
-  /*width:20px;*/
-  /*height:20px;*/
-  /*padding:100px;*/
+/*.sectioncenter {
   position:absolute;
-  /*top:-135px;*/
   left:60%;
   margin-left:-135px;
-  /*margin-top: -10px;*/
+}*/
+.sectioncenter {
+  text-align:center;
+  z-index:3;
+  border-radius:50%;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+  box-shadow: 0px 1px 15px rgba(0,0,0,0.05);
+  width:270px;
+  height:270px;
+  padding:15px;
+  position:absolute;
+  top:-135px;
+  left:50%;
+  margin-left:-135px;
 }
 
 
@@ -230,6 +240,18 @@ div.me {
   top:-135px;
   left:50%;
   margin-left:-135px;
+}
+
+.sectiondivider2 {
+  left: 53%;
+  margin-left: -135px;
+  padding: 15px;
+  width: 270px;
+  position: relative;
+}
+
+.padding-left-20 {
+  padding-left: 20px
 }
 
 .sectiondivider img {
